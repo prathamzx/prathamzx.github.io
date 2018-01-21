@@ -7,7 +7,7 @@ var Q= window.Q=new Quintus().include("Sprites,Scenes,2D,Touch,TMX,Input,Audio")
       	height:240,
       	scaleToFit: true
       })
-      .controls(true).touch();
+      .controls().touch();
 console.log(Q);
 Q.enableSound();
       Q.setImageSmoothing(false);
