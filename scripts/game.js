@@ -20,11 +20,11 @@ Q.enableSound();
       	stage.add("viewport").follow(player,{x:true,y:true});
       });
 
-      Q.loadTMX("levelx.tmx,sprites.png,sprites.json,jump.mp3,music.mp3",function(){
+      Q.loadTMX("levelx.tmx,sprites.png,sprites.json,jump.mp3,music1.mp3",function(){
       	Q.compileSheets("sprites.png","sprites.json");
       	// console.log("abc");
       	Q.stageScene("level1");
-            Q.audio.play('music.mp3',{loop:true});
+            Q.audio.play('music1.mp3',{loop:true});
       });
 });
         
